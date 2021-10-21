@@ -9,4 +9,17 @@ export const Container = styled.div<{size: number, left: number, top: number, si
     top: ${props => props.top}px;
     background-image: url('/assets/char.png');
     background-position: 0px ${props => props.sidePos}px;
+
+    .user {
+        display: flex;
+        padding: 2px;
+        min-width:65px;
+        margin-top: -30px;
+        margin-left: -15px;
+        background-color: #FFF;
+        color: black;
+        border-radius: 10px;
+        text-align: center;
+        border: 1px solid black;
+    }
 `
